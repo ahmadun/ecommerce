@@ -1,0 +1,115 @@
+@media (min-width: 768px) {
+    .navbar-nav.navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+    }
+
+    .navbar-nav.navbar-right {
+        position: absolute;
+        right: 0%;
+        transform: translatex(-50%);
+      }
+
+      .card.spacer {
+        margin-right: 10px;
+        height: 350px;
+        padding: 0;
+        width: 300px;
+      }
+
+      .img-sale {
+        max-width: 100%;
+        max-height: 100%; 
+       
+      }
+      .card-body.pad{
+          padding-left: 2px;
+          padding-right: 2px;
+          padding-top: 0;
+          padding-bottom: 0;
+      }
+      .buy-el{
+          z-index: 1;
+          position: absolute;
+          justify-content: center;
+          bottom: 0;
+          text-align: center;
+      
+          display:none;
+          left: 0;
+            right: 0;
+            margin: auto;
+            width: 170px;
+          
+             
+      }
+      .wrap-img{
+        height: 70%;
+        position: relative;
+      }
+      .img-sale:hover + .buy-el{
+      
+        display:block;
+       
+      }
+      .buy-el:hover{
+        display:block;
+      }
+      .opt-buy{
+         
+          float: left;
+          width: 50px;
+          margin: 2px;
+         
+      
+      }
+      .title-product{
+          height: 20%;
+          text-align: center;
+          font-weight: bold;
+      }
+      .prc-product{
+        height: 10%;
+        text-align: center;
+    }
+    .prc-ori{
+        text-decoration-line: line-through;
+        font-weight: normal;
+
+    }
+    .prc-offer{
+        color: red;
+        font-weight: normal;
+    }
+
+  }
+  @media (min-width: 500px) {
+    .buy-el{
+      z-index: 1;
+      position: absolute;
+      justify-content: center;
+      bottom: 0;
+      text-align: center;
+  
+      display:none;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 170px;
+      
+         
+  }
+  .wrap-img{
+    height: 70%;
+    position: relative;
+  }
+  .img-sale:hover + .buy-el{
+  
+    display:block;
+   
+  }
+  .buy-el:hover{
+    display:block;
+  }
+  }
