@@ -54,7 +54,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="h1">Portal Berita Codeigniter</h1>
+					<h1 class="h1">Portal Berita Codeignitera</h1>
 				</div>
 			</div>
 		</div>
